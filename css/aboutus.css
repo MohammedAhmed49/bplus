@@ -1,0 +1,340 @@
+/*---- pic1 ----*/
+.pic1{
+    background: url(../img/aboutus/about-us.jpg);
+    background-size: 100% 100%;
+    height: 400px;
+    width: 100%;
+    color: #fff;
+    padding: 130px 0;
+    
+}
+.pic1 h2{
+    font-size: 60px;
+    text-shadow: 0px 0px 10px #000;
+    position: relative;
+    margin: 0;
+}
+.pic1 .lead{
+    font-size: 26px;
+    text-shadow: 0px 0px 10px #000
+}
+/*---- what ----*/
+.what{
+    padding: 70px 0;
+}
+.what p{
+    font-size: 17px
+}
+.what .bla2{
+    padding-top: 107px;
+}
+.what hr{
+    margin: 40px 0;
+}
+.what .num .icon{
+    float: left;
+}
+.what .num .words{
+}
+.what .num i{
+    float: left;
+    color: #f69b37;
+    margin: 0px 30px;
+    padding-top: 30px;
+    font-size: 50px
+}
+.what .num p{
+    font-size: 18px;
+    margin-left: 10px;
+    white-space: nowrap;
+}
+.what .num p:first-of-type{
+    font-size: 60px;
+    margin-bottom: -10px;
+}
+/**** team ****/
+.team{
+    padding: 70px 0;
+    background-color: #e5eef0
+}
+.team h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0
+}
+.team h3{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 40px
+}
+.team .mem{
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    transition: 0.5s all;
+    margin-bottom: 30px
+}
+.team .mem:hover{
+    box-shadow: 5px 5px 10px #000
+}
+.team .mem .pic{
+    width: 100%;
+    height: 270px;
+}
+.team .mem .pic img{
+    width: 100%;
+    height: 100%;
+}
+.team .mem .info{
+    background-color: #fff;
+    padding: 20px 30px 30px;
+    min-height: 200px;
+}
+.team .mem .info p{
+    font-size: 18px;
+    margin-bottom: 5px
+}
+.team .mem .info .job{
+    color: #f69b37;
+    margin-bottom: 20px
+}
+.team .mem .info i{
+    margin-right: 15px;
+    color: #adbdc1
+}
+.team .mem .info i:hover{
+    color: #f69b37;
+    cursor: pointer
+}
+/**** feats ****/
+.feats{
+    padding-top: 70px;
+}
+.feats h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0
+}
+.feats h3{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 40px
+}
+.feats .feat{
+    margin-bottom: 50px
+}
+.feats .feat:hover .ic{
+    background-color: #f7941d;
+    color: #fff
+}
+.feats .feat .ic{
+    float: left;
+    width: 70px;
+    height: 70px;
+    background-color: #e5eef0;
+    margin-right: 20px;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    transition: 0.5s all;
+}
+.feats .feat .ic i{
+    margin-top: 15px
+}
+.feats .feat .words{
+    margin-left: 100px   
+}
+.feats button{
+    background: none;
+    border: none;
+    width: 190px;
+    height: 40px;
+    background-color: #29c2e1;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 30px
+}
+.feats .sep{
+    margin-top: 80px;
+    position: relative
+}
+/**************** footer ****************/
+/**** free ****/
+footer .free{
+    padding: 70px 0;
+}
+.free h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0
+}
+.free h2 span{
+    color: #f69b37
+}
+.free .lead{
+    font-size: 19px
+}
+footer .free button{
+    background: none;
+    border: none;
+    width: 160px;
+    height: 40px;
+    background-color: #29c2e1;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin: 0 auto;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 20px
+}
+footer .free button:last-child{
+    background-color: #f69b37
+}
+/**** final ****/
+.final{
+    position: relative
+}
+.final hr{
+    padding: 10px 0;
+}
+.final .det ul li{
+    margin: 10px 0;
+    color: #9aa7ad;
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif; 
+}
+.final .odd ul li:first-child,
+.final .odd ul li span{
+    color: #000;
+}
+.final .even ul{
+    padding-top: 33px;
+}
+.final .even li i{
+    margin-right: 10px;
+    color: #adbdc1;
+    word-break: break-all
+}
+.final .even i:hover{
+    color: #f69b37;
+    cursor: pointer
+}
+.final .odd input{
+    width: 80%;
+    display: inline-block;
+    border-radius: 0;
+    height: 33px
+}
+.final .odd button{
+    width: 15%;
+    height: 33px;
+    background: none;
+    background-color: #29c2e1;
+    color: #fff;
+    border: none
+}
+.final hr:last-of-type{
+    margin-top: 50px;
+    margin-bottom: 0px
+}
+.final .last p{
+    font-size: 18px;
+}
+.final:before{
+    content: "";
+    width: 0;
+    display: block;
+    position: absolute;
+    border-width: 0px 170px 130px 0px;
+    border-color: #f69b37 transparent;
+    border-style: solid;
+    top: -109px;
+}
+.final:after{
+    content: "";
+    width: 0;
+    display: block;
+    position: absolute;
+    border-width: 0px 0px 220px 220px;
+    border-color: #29c2e1 transparent;
+    border-style: solid;
+    top: 210px;
+    right: 0
+}
+/*-------------- media query --------------*/
+@media (min-width: 992px){
+    
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    
+}
+@media (max-width: 991px){
+    nav .list > li{
+        margin-left: 29px
+    }
+    nav .first > li:first-of-type,
+    nav .first > li:nth-of-type(3){
+        display: none
+    }
+    nav .drop{
+        display: block
+    }
+    nav .drop li:last-of-type,
+    nav .drop li:nth-last-of-type(2){
+        display: block
+    }
+    
+    .final:after{
+        top: 321px
+    }
+}
+@media (max-width: 767px){
+    .final:after{
+        border-width: 0px 0px 125px 125px;
+        top: 416px
+    }
+}
+@media (max-width: 640px){
+    nav .first  > li:not(.drop){
+        display: none
+    }
+    nav .drop li{
+        display: block
+    }
+    
+}
+@media (max-width: 584px){
+    .final:after{
+        border-width: 0px 0px 90px 90px;
+        top: 451px
+    }
+}
+@media (max-width: 540px){
+    .what .num p{
+        font-size: 14px
+    }
+    .what .num p:first-of-type{
+        font-size: 40px
+    }
+    .what .num i{
+        padding-top: 15px
+    }
+}
+@media (max-width: 498px){
+    .note,
+    .final:before,
+    .final:after{
+        display: none;
+    }
+}
+@media (max-width: 450px){
+    
+    
+}

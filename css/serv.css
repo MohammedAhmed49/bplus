@@ -1,0 +1,109 @@
+.pic1{
+    background: url('../img/serv/serv1.jpg');
+    background-size: 100% 100%;
+}
+/*---- serv ----*/
+.serv{
+    padding: 70px 0 0
+}
+.serv h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.serv h3{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 40px
+}
+.serv .srvs ul li{
+    border: 1px solid #dee8ea;
+    padding: 20px 25px; 
+    font-size: 18px;
+    position: relative
+}
+.serv .srvs ul li i{
+    margin-right: 30px;
+    color: #000;
+}
+.serv .srvs ul li span{
+    position: absolute;
+    top: 28px;
+    font-size: 18px;
+    border-left: 3px solid #29c2e1;
+    padding-left: 15px;
+    left: 90px
+}
+.serv .srvs ul li:hover{
+    cursor: pointer
+}
+.serv .srvs ul li.act{
+    border: 1px solid #f7941d;
+}
+.serv .srvs ul li.act i{
+    color: #f7941d
+}
+.serv .srvs ul li.act span{
+    border-left: 3px solid #f7941d;
+}
+.serv .srv i{
+    font-size: 100px;
+    color: #f7941d;
+    display: inline-block
+}
+.serv .srv{
+    display: none;
+}
+.serv .srv .lead{
+    font-size: 18px;
+    margin-top: 40px
+}
+.serv .srv .last{
+    font-size: 18px;
+    margin-top: 40px;
+    width: 600px;
+    margin-left: 70px;
+    border-left: 3px solid #29c2e1;
+    padding-left: 30px
+}
+.serv .srv button{
+    background: none;
+    border: none;
+    background-color: #f7941d;
+    color: #fff;
+    width: 130px;
+    height: 35px;
+    border-radius: 20px;
+    margin: 70px 0;
+    display: block;
+}
+.serv .srv button:hover{
+    background-color: #29c2e1;
+    box-shadow: none
+}
+/*---- nums ----*/
+.nums{
+    background-color: #e5eef0;
+    padding: 60px 0
+}
+.nums .num .icon{
+    float: left;
+}
+.nums .num .words{
+}
+.nums .num i{
+    float: left;
+    color: #f69b37;
+    margin: 0px 30px;
+    padding-top: 30px;
+    font-size: 50px
+}
+.nums .num p{
+    font-size: 18px;
+    margin-left: 10px;
+    white-space: nowrap;
+}
+.nums .num p:first-of-type{
+    font-size: 60px;
+    margin-bottom: -10px;
+}

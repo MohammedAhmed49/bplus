@@ -1,0 +1,88 @@
+.pic1{
+    background: url('../img/portfolio/portfolio1.jpg');
+    background-size: 100% 100%;
+}
+/*---- port ----*/
+.port{
+    padding: 70px 0;
+}
+.port h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0
+}
+.port h3{
+    margin-top: 5px;
+    margin-bottom: 40px
+}
+.port .buts button{
+    background: none;
+    border: 1px solid #29c2e1;
+    padding: 10px;
+    width: 120px;
+    height: 50px;
+    margin: 0px 10px 20px 10px;
+    color: #29c2e1;
+    border-radius: 20px
+}
+.port .buts button:hover,
+.port .buts button.act{
+    background-color: #29c2e1;
+    color: #fff;
+    box-shadow: none;
+}
+.port .proj{
+    height: 400px;
+    background: url('../img/portfolio/projects/pro1.jpg');
+    background-size: 100% 100%;
+    margin-bottom: 30px;
+    position: relative;
+}
+.port .p2{
+    background: url('../img/portfolio/projects/pro2.jpg');
+    background-size: 100% 100%;
+}
+.port .p3{
+    background: url('../img/portfolio/projects/pro3.jpg');
+    background-size: 100% 100%;
+}
+.port .p4{
+    background: url('../img/portfolio/projects/pro4.jpg');
+    background-size: 100% 100%;
+}
+.port .p5{
+    background: url('../img/portfolio/projects/pro5.jpg');
+    background-size: 100% 100%;
+}
+.port .p6{
+    background: url('../img/portfolio/projects/pro6.jpg');
+    background-size: 100% 100%;
+}
+.port .proj .lay{
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    left: 15px;
+    top: 10px;
+    background-color: rgba(246,155,55,0.8);
+    color: #fff;
+    display: none;
+    
+}
+.port .proj .lay h4{
+    font-size: 40px;
+    margin-top: 25%;
+}
+.port .proj .lay a{
+    color: #fff;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    transition: 0.5s all;
+}
+.port .proj .lay a:hover{
+    color: #29c2e1;
+}
+#mix .mix{
+	display: none;
+}
